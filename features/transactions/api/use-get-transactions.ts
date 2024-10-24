@@ -3,7 +3,6 @@ import { useSearchParams } from "next/navigation";
 
 import { client } from "@/lib/hono";
 import { convertAmountFromMiliunits } from "@/lib/utils";
-// import { convertAmountFromMiliunits } from '@/lib/utils';
 
 export const useGetTransactions = () => {
   const params = useSearchParams();
